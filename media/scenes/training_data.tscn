@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dn21r3h6xh115"]
 
-[ext_resource type="Script" path="res://scripts/TrainingData.gd" id="1_wbbxw"]
+[ext_resource type="Script" uid="uid://dhdunyxkabgjq" path="res://scripts/TrainingData.gd" id="1_wbbxw"]
 [ext_resource type="LabelSettings" uid="uid://6wfgdmwf7gy5" path="res://media/hud/training_data_label_settings.tres" id="2_yqmqq"]
 
 [node name="TrainingData" type="Control"]

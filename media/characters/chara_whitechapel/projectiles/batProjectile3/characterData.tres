@@ -1,7 +1,8 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=3 format=3 uid="uid://ckl8mpah781re"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=4 format=3 uid="uid://ckl8mpah781re"]
 
 [ext_resource type="Resource" uid="uid://bvtjxqlkdhfte" path="res://media/characters/chara_whitechapel/projectiles/batProjectile3/batProj45.tres" id="1_cl0n2"]
-[ext_resource type="Script" path="res://scripts/characterData.gd" id="2_kwvw5"]
+[ext_resource type="Script" uid="uid://bx724cid86ygg" path="res://scripts/move.gd" id="1_tbnb6"]
+[ext_resource type="Script" uid="uid://c5cjljg8c7ro7" path="res://scripts/characterData.gd" id="2_kwvw5"]
 
 [resource]
 script = ExtResource("2_kwvw5")
@@ -10,5 +11,5 @@ characterDisplayName = ""
 characterAnimationLibraryPrefix = "bat"
 characterMaxHealth = 1
 characterMaxMeter = 0
-characterMoves = Array[Resource("res://scripts/move.gd")]([ExtResource("1_cl0n2"), ExtResource("1_cl0n2"), ExtResource("1_cl0n2"), ExtResource("1_cl0n2"), ExtResource("1_cl0n2")])
+characterMoves = Array[ExtResource("1_tbnb6")]([ExtResource("1_cl0n2"), ExtResource("1_cl0n2"), ExtResource("1_cl0n2"), ExtResource("1_cl0n2"), ExtResource("1_cl0n2")])
 characterProjectileTypes = Array[String]([])

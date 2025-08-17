@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://cp6hpmw16o684"]
 
-[ext_resource type="Script" path="res://addons/godot-rollback-netcode/NetworkAnimationPlayer.gd" id="1_tnxe2"]
+[ext_resource type="Script" uid="uid://dblbhwkotn86i" path="res://addons/godot-rollback-netcode/NetworkAnimationPlayer.gd" id="1_tnxe2"]
 [ext_resource type="Texture2D" uid="uid://c45jlnpthos5a" path="res://media/characters/all_chara_common/sprites/hitsparks.png" id="1_vbenn"]
-[ext_resource type="Script" path="res://scripts/HitSpark.gd" id="1_wkcan"]
+[ext_resource type="Script" uid="uid://cphsjvhjajce0" path="res://scripts/HitSpark.gd" id="1_wkcan"]
 
 [sub_resource type="Animation" id="Animation_wvk00"]
 length = 0.001
@@ -39,8 +39,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_2j6vj"]
 _data = {
-"RESET": SubResource("Animation_wvk00"),
-"hitspark": SubResource("Animation_yhg06")
+&"RESET": SubResource("Animation_wvk00"),
+&"hitspark": SubResource("Animation_yhg06")
 }
 
 [node name="HitSpark" type="Node2D"]

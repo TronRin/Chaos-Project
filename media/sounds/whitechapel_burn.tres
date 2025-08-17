@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="SoundAtFrame" load_steps=3 format=3 uid="uid://bgt31amin4roi"]
 
-[ext_resource type="Script" path="res://scripts/soundAtFrame.gd" id="1_ynj0u"]
+[ext_resource type="Script" uid="uid://dl0og6tw8xw8o" path="res://scripts/soundAtFrame.gd" id="1_ynj0u"]
 [ext_resource type="AudioStream" uid="uid://04mhn5rh21ai" path="res://media/sounds/burnFast.wav" id="2_k0tyk"]
 
 [resource]

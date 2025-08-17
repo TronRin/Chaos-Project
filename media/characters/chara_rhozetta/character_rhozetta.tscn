@@ -1,9 +1,9 @@
 [gd_scene load_steps=38 format=3 uid="uid://fnvspxaugubd"]
 
-[ext_resource type="Script" path="res://scripts/character.gd" id="1_wago2"]
+[ext_resource type="Script" uid="uid://bgsw0i6dn8jfd" path="res://scripts/character.gd" id="1_wago2"]
 [ext_resource type="Resource" uid="uid://8twlm04m24uq" path="res://media/characters/chara_rhozetta/characterData.tres" id="2_3jd0h"]
-[ext_resource type="Script" path="res://scripts/characterState.gd" id="2_kfbbf"]
-[ext_resource type="Script" path="res://addons/godot-rollback-netcode/NetworkAnimationPlayer.gd" id="3_o8kwn"]
+[ext_resource type="Script" uid="uid://dejsdrredofon" path="res://scripts/characterState.gd" id="2_kfbbf"]
+[ext_resource type="Script" uid="uid://dblbhwkotn86i" path="res://addons/godot-rollback-netcode/NetworkAnimationPlayer.gd" id="3_o8kwn"]
 [ext_resource type="PackedScene" uid="uid://cy2ewlewinwbv" path="res://media/logic/HitBox.tscn" id="4_aq1u3"]
 [ext_resource type="Texture2D" uid="uid://cpvhbgr7f2jwx" path="res://media/characters/chara_rhozetta/sprites/rhozetta2.png" id="4_fduox"]
 [ext_resource type="Texture2D" uid="uid://t1ms8cgwq76o" path="res://media/characters/chara_rhozetta/sprites/rhozetta1.png" id="4_ottud"]
@@ -146,7 +146,7 @@ tracks/8/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_mrc6t"]
 _data = {
-"RESET": SubResource("Animation_ha52s")
+&"RESET": SubResource("Animation_ha52s")
 }
 
 [sub_resource type="Animation" id="Animation_rcg4j"]
@@ -387,31 +387,31 @@ tracks/10/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hq0di"]
 _data = {
-"RESET": SubResource("Animation_rcg4j"),
-"airBurst": ExtResource("23_1o7o5"),
-"airspikes": ExtResource("18_sec5t"),
-"downSpike": ExtResource("27_hihp7"),
-"falling": ExtResource("8_io2t7"),
-"headbash": ExtResource("16_by3qg"),
-"headbash_back": ExtResource("28_j11fi"),
-"hurtGround": ExtResource("11_ijcff"),
-"hurtGround_2": ExtResource("12_fetpv"),
-"hurtSpike": ExtResource("26_gtcsm"),
-"idle": ExtResource("5_p1w35"),
-"infinity_install": ExtResource("19_vciwr"),
-"jumpB": ExtResource("10_pfply"),
-"jumpF": ExtResource("8_88ovt"),
-"knockdown": ExtResource("13_4lin0"),
-"ko": ExtResource("14_mali6"),
-"pendulum": ExtResource("24_ebl0m"),
-"pendulum_backup": SubResource("Animation_2wo05"),
-"rampage": ExtResource("19_5nqbn"),
-"rampage_startup": ExtResource("25_bd7d3"),
-"victory": ExtResource("22_r3c2h"),
-"walkB": ExtResource("7_fh8yx"),
-"walkF": ExtResource("6_h5eb7"),
-"wallsplat": ExtResource("16_co4v5"),
-"zero_install": ExtResource("21_tyvqx")
+&"RESET": SubResource("Animation_rcg4j"),
+&"airBurst": ExtResource("23_1o7o5"),
+&"airspikes": ExtResource("18_sec5t"),
+&"downSpike": ExtResource("27_hihp7"),
+&"falling": ExtResource("8_io2t7"),
+&"headbash": ExtResource("16_by3qg"),
+&"headbash_back": ExtResource("28_j11fi"),
+&"hurtGround": ExtResource("11_ijcff"),
+&"hurtGround_2": ExtResource("12_fetpv"),
+&"hurtSpike": ExtResource("26_gtcsm"),
+&"idle": ExtResource("5_p1w35"),
+&"infinity_install": ExtResource("19_vciwr"),
+&"jumpB": ExtResource("10_pfply"),
+&"jumpF": ExtResource("8_88ovt"),
+&"knockdown": ExtResource("13_4lin0"),
+&"ko": ExtResource("14_mali6"),
+&"pendulum": ExtResource("24_ebl0m"),
+&"pendulum_backup": SubResource("Animation_2wo05"),
+&"rampage": ExtResource("19_5nqbn"),
+&"rampage_startup": ExtResource("25_bd7d3"),
+&"victory": ExtResource("22_r3c2h"),
+&"walkB": ExtResource("7_fh8yx"),
+&"walkF": ExtResource("6_h5eb7"),
+&"wallsplat": ExtResource("16_co4v5"),
+&"zero_install": ExtResource("21_tyvqx")
 }
 
 [node name="Character" type="Node2D"]

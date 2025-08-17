@@ -1,9 +1,10 @@
-[gd_resource type="Resource" script_class="CharacterMove" load_steps=7 format=3 uid="uid://b5kch8x6xmlqx"]
+[gd_resource type="Resource" script_class="CharacterMove" load_steps=8 format=3 uid="uid://b5kch8x6xmlqx"]
 
+[ext_resource type="Script" uid="uid://ovm4oyhf0bxh" path="res://scripts/cancelRoute.gd" id="1_5eoaa"]
 [ext_resource type="Resource" uid="uid://bky4t7uyp20tb" path="res://media/characters/chara_gridd/moves/cancels/to_airdash_install_on_hit.tres" id="2_rg3vo"]
 [ext_resource type="Resource" uid="uid://dkvcd6s744tx2" path="res://media/characters/all_chara_common/moves/cancels/to_idle_landing.tres" id="3_itjx0"]
-[ext_resource type="Script" path="res://scripts/move.gd" id="4_tkxvh"]
-[ext_resource type="Script" path="res://scripts/soundAtFrame.gd" id="4_wpi2k"]
+[ext_resource type="Script" uid="uid://bx724cid86ygg" path="res://scripts/move.gd" id="4_tkxvh"]
+[ext_resource type="Script" uid="uid://dl0og6tw8xw8o" path="res://scripts/soundAtFrame.gd" id="4_wpi2k"]
 [ext_resource type="AudioStream" uid="uid://c8uhtnvacs5kw" path="res://media/sounds/swing2.wav" id="5_ayxcc"]
 
 [sub_resource type="Resource" id="Resource_dkrmq"]
@@ -45,7 +46,7 @@ input = Array[int]([1, 16])
 inputVariant1 = Array[int]([])
 inputVariant2 = Array[int]([])
 inputVariant3 = Array[int]([])
-cancelRoutes = Array[Resource("res://scripts/cancelRoute.gd")]([ExtResource("2_rg3vo"), ExtResource("3_itjx0")])
+cancelRoutes = Array[ExtResource("1_5eoaa")]([ExtResource("2_rg3vo"), ExtResource("3_itjx0")])
 guardFrames = Vector2i(-1, -1)
 soundsAtFrame = Array[ExtResource("4_wpi2k")]([SubResource("Resource_dkrmq")])
 timestopFrames = 0

@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cy2ewlewinwbv"]
 
-[ext_resource type="Script" path="res://scripts/hitbox.gd" id="1_lbq3n"]
+[ext_resource type="Script" uid="uid://c8srp5t16hxad" path="res://scripts/hitbox.gd" id="1_lbq3n"]
 [ext_resource type="Texture2D" uid="uid://bhtvqpaccmrgl" path="res://media/logic/hitboxTex.png" id="2_58gdn"]
 
 [node name="HitBox" type="Node2D"]

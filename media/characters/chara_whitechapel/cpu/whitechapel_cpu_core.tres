@@ -1,8 +1,9 @@
-[gd_resource type="Resource" script_class="CpuOpponentRuleset" load_steps=81 format=3 uid="uid://dqen3ev4boxvm"]
+[gd_resource type="Resource" script_class="CpuOpponentRuleset" load_steps=82 format=3 uid="uid://dqen3ev4boxvm"]
 
-[ext_resource type="Script" path="res://scripts/CPUOpponentRuleset.gd" id="1_6c1y2"]
-[ext_resource type="Script" path="res://scripts/CPUOpponentRule.gd" id="1_xulvw"]
-[ext_resource type="Script" path="res://scripts/CPUOpponentMove.gd" id="2_6od4y"]
+[ext_resource type="Script" uid="uid://cyonjhkq6moac" path="res://scripts/CPUOpponentRuleset.gd" id="1_6c1y2"]
+[ext_resource type="Script" uid="uid://fvsm8y2l3ex3" path="res://scripts/CPUOpponentCombo.gd" id="1_lcxhe"]
+[ext_resource type="Script" uid="uid://ddtwfdakcha4x" path="res://scripts/CPUOpponentRule.gd" id="1_xulvw"]
+[ext_resource type="Script" uid="uid://c21k8tpk5cvf7" path="res://scripts/CPUOpponentMove.gd" id="2_6od4y"]
 
 [sub_resource type="Resource" id="Resource_5cmo7"]
 script = ExtResource("1_xulvw")
@@ -546,4 +547,4 @@ tickToNextMove = 1
 [resource]
 script = ExtResource("1_6c1y2")
 moves = Array[ExtResource("2_6od4y")]([SubResource("Resource_duiyv"), SubResource("Resource_70ken"), SubResource("Resource_lk1ty"), SubResource("Resource_etm6t"), SubResource("Resource_t2prx"), SubResource("Resource_odn47"), SubResource("Resource_y665i"), SubResource("Resource_xmvl0"), SubResource("Resource_a6cwm"), SubResource("Resource_mm4sg"), SubResource("Resource_ucs41"), SubResource("Resource_okiq8"), SubResource("Resource_0vwtw"), SubResource("Resource_f3fha"), SubResource("Resource_hk4qk"), SubResource("Resource_45nun"), SubResource("Resource_rl5v1"), SubResource("Resource_p2dd7"), SubResource("Resource_06h0l"), SubResource("Resource_jf8cf"), SubResource("Resource_5312e")])
-combos = Array[Resource("res://scripts/CPUOpponentCombo.gd")]([])
+combos = Array[ExtResource("1_lcxhe")]([])

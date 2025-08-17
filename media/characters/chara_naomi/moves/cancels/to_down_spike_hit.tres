@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="MoveCancelRoute" load_steps=2 format=3 uid="uid://b20sqchf2s4nv"]
 
-[ext_resource type="Script" path="res://scripts/cancelRoute.gd" id="1_wa2fw"]
+[ext_resource type="Script" uid="uid://ovm4oyhf0bxh" path="res://scripts/cancelRoute.gd" id="1_wa2fw"]
 
 [resource]
 script = ExtResource("1_wa2fw")

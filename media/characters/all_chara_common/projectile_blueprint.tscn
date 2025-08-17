@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://b085eskbejvl0"]
 
-[ext_resource type="Script" path="res://scripts/projectile.gd" id="1_bvb1d"]
-[ext_resource type="Script" path="res://scripts/characterState.gd" id="2_wc0xp"]
-[ext_resource type="Script" path="res://addons/godot-rollback-netcode/NetworkAnimationPlayer.gd" id="3_lyrj3"]
+[ext_resource type="Script" uid="uid://dcy1j23irqayj" path="res://scripts/projectile.gd" id="1_bvb1d"]
+[ext_resource type="Script" uid="uid://dejsdrredofon" path="res://scripts/characterState.gd" id="2_wc0xp"]
+[ext_resource type="Script" uid="uid://dblbhwkotn86i" path="res://addons/godot-rollback-netcode/NetworkAnimationPlayer.gd" id="3_lyrj3"]
 [ext_resource type="PackedScene" uid="uid://cy2ewlewinwbv" path="res://media/logic/HitBox.tscn" id="4_xjogk"]
 [ext_resource type="PackedScene" uid="uid://cbaqvnlrwjidk" path="res://media/logic/HurtBox.tscn" id="5_8yjp8"]
 [ext_resource type="PackedScene" uid="uid://c5k34hfd8kc10" path="res://media/logic/PushBox.tscn" id="6_m5toj"]

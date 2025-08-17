@@ -1,8 +1,8 @@
 [gd_scene load_steps=37 format=3 uid="uid://bcwhn0ejxq1vs"]
 
-[ext_resource type="Script" path="res://scripts/character.gd" id="1_68ei7"]
+[ext_resource type="Script" uid="uid://bgsw0i6dn8jfd" path="res://scripts/character.gd" id="1_68ei7"]
 [ext_resource type="Resource" uid="uid://dplht2b3monrh" path="res://media/characters/chara_gridd/characterData.tres" id="2_nsllh"]
-[ext_resource type="Script" path="res://scripts/characterState.gd" id="3_7bgnf"]
+[ext_resource type="Script" uid="uid://dejsdrredofon" path="res://scripts/characterState.gd" id="3_7bgnf"]
 [ext_resource type="Texture2D" uid="uid://chpu18115h04u" path="res://media/characters/chara_gridd/sprites/gridd1.png" id="4_uj772"]
 [ext_resource type="Texture2D" uid="uid://t1ms8cgwq76o" path="res://media/characters/chara_rhozetta/sprites/rhozetta1.png" id="5_jl0fw"]
 [ext_resource type="Animation" uid="uid://cxrf8xh0cjclo" path="res://media/characters/chara_gridd/animations/airBurst.res" id="7_0x4lf"]
@@ -28,7 +28,7 @@
 [ext_resource type="Animation" uid="uid://by14sd24t4d27" path="res://media/characters/chara_gridd/animations/slash.res" id="26_qcumj"]
 [ext_resource type="Animation" uid="uid://cyihb3ecjpdbt" path="res://media/characters/chara_gridd/animations/slash_2.res" id="27_0ta5b"]
 [ext_resource type="Animation" uid="uid://btkqf04iqqsr6" path="res://media/characters/chara_gridd/animations/twin_drills_2.res" id="28_1w0h6"]
-[ext_resource type="Script" path="res://addons/godot-rollback-netcode/NetworkAnimationPlayer.gd" id="28_nnkpy"]
+[ext_resource type="Script" uid="uid://dblbhwkotn86i" path="res://addons/godot-rollback-netcode/NetworkAnimationPlayer.gd" id="28_nnkpy"]
 [ext_resource type="PackedScene" uid="uid://cy2ewlewinwbv" path="res://media/logic/HitBox.tscn" id="29_o8ao5"]
 [ext_resource type="PackedScene" uid="uid://cbaqvnlrwjidk" path="res://media/logic/HurtBox.tscn" id="30_1uvxb"]
 [ext_resource type="PackedScene" uid="uid://c5k34hfd8kc10" path="res://media/logic/PushBox.tscn" id="31_bm38g"]
@@ -242,7 +242,7 @@ tracks/16/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_v28wi"]
 _data = {
-"RESET": SubResource("Animation_6uhfb")
+&"RESET": SubResource("Animation_6uhfb")
 }
 
 [sub_resource type="Animation" id="Animation_7gmxv"]
@@ -346,30 +346,30 @@ tracks/7/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_kk6li"]
 _data = {
-"RESET": SubResource("Animation_7gmxv"),
-"airBurst": ExtResource("7_0x4lf"),
-"boosted_drill": ExtResource("24_ysuu8"),
-"downSpike": ExtResource("9_cwmdj"),
-"falling": ExtResource("7_hvwll"),
-"head_blast": ExtResource("25_mefpi"),
-"hurtGround": ExtResource("8_n3hg4"),
-"hurtGround_2": ExtResource("9_nxb4w"),
-"hurtSpike": ExtResource("11_obac1"),
-"idle": ExtResource("7_7nsd0"),
-"infinity_install": ExtResource("21_8lmcq"),
-"jumpB": ExtResource("13_daeth"),
-"jumpF": ExtResource("12_tnbyi"),
-"knockdown": ExtResource("11_ap1ub"),
-"ko": ExtResource("9_eb7ux"),
-"slash": ExtResource("26_qcumj"),
-"slash_2": ExtResource("27_0ta5b"),
-"twin_drills": ExtResource("20_8rc8t"),
-"twin_drills_2": ExtResource("28_1w0h6"),
-"victory": ExtResource("23_r0j1n"),
-"walkB": ExtResource("15_wboyn"),
-"walkF": ExtResource("16_s4hkf"),
-"wallsplat": ExtResource("19_t3660"),
-"zero_install": ExtResource("22_he58g")
+&"RESET": SubResource("Animation_7gmxv"),
+&"airBurst": ExtResource("7_0x4lf"),
+&"boosted_drill": ExtResource("24_ysuu8"),
+&"downSpike": ExtResource("9_cwmdj"),
+&"falling": ExtResource("7_hvwll"),
+&"head_blast": ExtResource("25_mefpi"),
+&"hurtGround": ExtResource("8_n3hg4"),
+&"hurtGround_2": ExtResource("9_nxb4w"),
+&"hurtSpike": ExtResource("11_obac1"),
+&"idle": ExtResource("7_7nsd0"),
+&"infinity_install": ExtResource("21_8lmcq"),
+&"jumpB": ExtResource("13_daeth"),
+&"jumpF": ExtResource("12_tnbyi"),
+&"knockdown": ExtResource("11_ap1ub"),
+&"ko": ExtResource("9_eb7ux"),
+&"slash": ExtResource("26_qcumj"),
+&"slash_2": ExtResource("27_0ta5b"),
+&"twin_drills": ExtResource("20_8rc8t"),
+&"twin_drills_2": ExtResource("28_1w0h6"),
+&"victory": ExtResource("23_r0j1n"),
+&"walkB": ExtResource("15_wboyn"),
+&"walkF": ExtResource("16_s4hkf"),
+&"wallsplat": ExtResource("19_t3660"),
+&"zero_install": ExtResource("22_he58g")
 }
 
 [node name="Character" type="Node2D"]

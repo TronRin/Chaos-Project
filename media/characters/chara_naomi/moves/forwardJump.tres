@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="CharacterMove" load_steps=7 format=3 uid="uid://464fmh0j53it"]
+[gd_resource type="Resource" script_class="CharacterMove" load_steps=9 format=3 uid="uid://464fmh0j53it"]
 
 [ext_resource type="Resource" uid="uid://dkvcd6s744tx2" path="res://media/characters/all_chara_common/moves/cancels/to_idle_landing.tres" id="1_3xf3y"]
 [ext_resource type="Resource" uid="uid://3m1xnfahsqsl" path="res://media/characters/chara_naomi/moves/cancels/to_air_advancing_kick.tres" id="1_g10b6"]
+[ext_resource type="Script" uid="uid://ovm4oyhf0bxh" path="res://scripts/cancelRoute.gd" id="1_nbqjm"]
 [ext_resource type="Resource" uid="uid://cjr065s1i36mb" path="res://media/characters/chara_naomi/moves/cancels/to_air_slash.tres" id="1_xqimy"]
-[ext_resource type="Script" path="res://scripts/move.gd" id="2_g53sk"]
+[ext_resource type="Script" uid="uid://bx724cid86ygg" path="res://scripts/move.gd" id="2_g53sk"]
 [ext_resource type="Resource" uid="uid://dxbcshc3cc40c" path="res://media/characters/chara_naomi/moves/cancels/to_down_spike.tres" id="2_kn4ac"]
 [ext_resource type="Resource" uid="uid://b4c5sa05grkvs" path="res://media/sounds/dash_sound.tres" id="6_3l133"]
+[ext_resource type="Script" uid="uid://dl0og6tw8xw8o" path="res://scripts/soundAtFrame.gd" id="7_k3int"]
 
 [resource]
 script = ExtResource("2_g53sk")
@@ -39,7 +41,7 @@ input = Array[int]([6])
 inputVariant1 = Array[int]([])
 inputVariant2 = Array[int]([])
 inputVariant3 = Array[int]([])
-cancelRoutes = Array[Resource("res://scripts/cancelRoute.gd")]([ExtResource("1_g10b6"), ExtResource("2_kn4ac"), ExtResource("1_xqimy"), ExtResource("1_3xf3y")])
+cancelRoutes = Array[ExtResource("1_nbqjm")]([ExtResource("1_g10b6"), ExtResource("2_kn4ac"), ExtResource("1_xqimy"), ExtResource("1_3xf3y")])
 guardFrames = Vector2i(-1, -1)
-soundsAtFrame = Array[Resource("res://scripts/soundAtFrame.gd")]([ExtResource("6_3l133")])
+soundsAtFrame = Array[ExtResource("7_k3int")]([ExtResource("6_3l133")])
 timestopFrames = 0

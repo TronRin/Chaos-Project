@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="SoundAtFrame" load_steps=3 format=3 uid="uid://wqsbuj2cd50i"]
 
-[ext_resource type="Script" path="res://scripts/soundAtFrame.gd" id="1_g4ida"]
+[ext_resource type="Script" uid="uid://dl0og6tw8xw8o" path="res://scripts/soundAtFrame.gd" id="1_g4ida"]
 [ext_resource type="AudioStream" uid="uid://dx81fj3f8bxb5" path="res://media/sounds/boost2.wav" id="2_skuda"]
 
 [resource]

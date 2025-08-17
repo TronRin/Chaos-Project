@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="CharacterMove" load_steps=7 format=3 uid="uid://brjgkjsac2h2r"]
+[gd_resource type="Resource" script_class="CharacterMove" load_steps=9 format=3 uid="uid://brjgkjsac2h2r"]
 
 [ext_resource type="Resource" uid="uid://dodwisyy5me8d" path="res://media/characters/chara_gridd/moves/cancels/to_drills_fwp_hit.tres" id="1_bielj"]
-[ext_resource type="Script" path="res://scripts/move.gd" id="1_ki6tc"]
+[ext_resource type="Script" uid="uid://bx724cid86ygg" path="res://scripts/move.gd" id="1_ki6tc"]
 [ext_resource type="Resource" uid="uid://k85f7ldgjhu7" path="res://media/characters/all_chara_common/moves/cancels/infinity_install_hit.tres" id="1_knpxw"]
+[ext_resource type="Script" uid="uid://ovm4oyhf0bxh" path="res://scripts/cancelRoute.gd" id="1_pw3n1"]
 [ext_resource type="Resource" uid="uid://b3dvs8txb8pji" path="res://media/characters/all_chara_common/moves/cancels/zero_install_hit.tres" id="2_cmqfr"]
 [ext_resource type="Resource" uid="uid://bky4t7uyp20tb" path="res://media/characters/chara_gridd/moves/cancels/to_airdash_install_on_hit.tres" id="3_23eea"]
 [ext_resource type="Resource" uid="uid://5fow68b50w1v" path="res://media/sounds/drill_sound.tres" id="6_jtvoc"]
+[ext_resource type="Script" uid="uid://dl0og6tw8xw8o" path="res://scripts/soundAtFrame.gd" id="7_r5fs6"]
 
 [resource]
 script = ExtResource("1_ki6tc")
@@ -39,7 +41,7 @@ input = Array[int]([16, 16, 16])
 inputVariant1 = Array[int]([])
 inputVariant2 = Array[int]([])
 inputVariant3 = Array[int]([])
-cancelRoutes = Array[Resource("res://scripts/cancelRoute.gd")]([ExtResource("2_cmqfr"), ExtResource("1_knpxw"), ExtResource("3_23eea"), ExtResource("1_bielj")])
+cancelRoutes = Array[ExtResource("1_pw3n1")]([ExtResource("2_cmqfr"), ExtResource("1_knpxw"), ExtResource("3_23eea"), ExtResource("1_bielj")])
 guardFrames = Vector2i(-1, -1)
-soundsAtFrame = Array[Resource("res://scripts/soundAtFrame.gd")]([ExtResource("6_jtvoc")])
+soundsAtFrame = Array[ExtResource("7_r5fs6")]([ExtResource("6_jtvoc")])
 timestopFrames = 0

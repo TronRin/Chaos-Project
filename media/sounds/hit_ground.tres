@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="SoundAtFrame" load_steps=3 format=3 uid="uid://cyhkshchsmkmx"]
 
-[ext_resource type="Script" path="res://scripts/soundAtFrame.gd" id="1_b4fuo"]
+[ext_resource type="Script" uid="uid://dl0og6tw8xw8o" path="res://scripts/soundAtFrame.gd" id="1_b4fuo"]
 [ext_resource type="AudioStream" uid="uid://btt16omc2fkh" path="res://media/sounds/hit5.wav" id="2_acw57"]
 
 [resource]

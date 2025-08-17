@@ -1,13 +1,15 @@
-[gd_resource type="Resource" script_class="CharacterMove" load_steps=9 format=3 uid="uid://dw286u1bvgkv5"]
+[gd_resource type="Resource" script_class="CharacterMove" load_steps=11 format=3 uid="uid://dw286u1bvgkv5"]
 
+[ext_resource type="Script" uid="uid://ovm4oyhf0bxh" path="res://scripts/cancelRoute.gd" id="1_6jsya"]
 [ext_resource type="Resource" uid="uid://g6qr4gtexyxl" path="res://media/characters/chara_whitechapel/moves/cancels/to_entropy_fwp.tres" id="1_abmd7"]
 [ext_resource type="Resource" uid="uid://b3dvs8txb8pji" path="res://media/characters/all_chara_common/moves/cancels/zero_install_hit.tres" id="2_r4q1g"]
 [ext_resource type="Resource" uid="uid://k85f7ldgjhu7" path="res://media/characters/all_chara_common/moves/cancels/infinity_install_hit.tres" id="3_cjdik"]
 [ext_resource type="Resource" uid="uid://csyfkukhxifa0" path="res://media/characters/all_chara_common/moves/cancels/jc_on_hit.tres" id="4_xf47j"]
 [ext_resource type="Resource" uid="uid://d2quvuuy1qvv0" path="res://media/characters/all_chara_common/moves/cancels/jc_b_on_hit.tres" id="5_mbc0g"]
 [ext_resource type="Resource" uid="uid://d2nccsnvqunof" path="res://media/characters/all_chara_common/moves/cancels/jc_n_on_hit.tres" id="6_ac51t"]
-[ext_resource type="Script" path="res://scripts/move.gd" id="7_ftqbl"]
+[ext_resource type="Script" uid="uid://bx724cid86ygg" path="res://scripts/move.gd" id="7_ftqbl"]
 [ext_resource type="Resource" uid="uid://bgt31amin4roi" path="res://media/sounds/whitechapel_burn.tres" id="8_tu3m5"]
+[ext_resource type="Script" uid="uid://dl0og6tw8xw8o" path="res://scripts/soundAtFrame.gd" id="9_jh7sj"]
 
 [resource]
 script = ExtResource("7_ftqbl")
@@ -41,7 +43,7 @@ input = Array[int]([8, 9, 1, 16])
 inputVariant1 = Array[int]([])
 inputVariant2 = Array[int]([])
 inputVariant3 = Array[int]([])
-cancelRoutes = Array[Resource("res://scripts/cancelRoute.gd")]([ExtResource("1_abmd7"), ExtResource("2_r4q1g"), ExtResource("3_cjdik"), ExtResource("4_xf47j"), ExtResource("5_mbc0g"), ExtResource("6_ac51t")])
+cancelRoutes = Array[ExtResource("1_6jsya")]([ExtResource("1_abmd7"), ExtResource("2_r4q1g"), ExtResource("3_cjdik"), ExtResource("4_xf47j"), ExtResource("5_mbc0g"), ExtResource("6_ac51t")])
 guardFrames = Vector2i(-1, -1)
-soundsAtFrame = Array[Resource("res://scripts/soundAtFrame.gd")]([ExtResource("8_tu3m5")])
+soundsAtFrame = Array[ExtResource("9_jh7sj")]([ExtResource("8_tu3m5")])
 timestopFrames = 0

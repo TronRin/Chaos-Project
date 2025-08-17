@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="CpuOpponentRuleset" load_steps=94 format=3 uid="uid://b3tg814hs63y5"]
 
-[ext_resource type="Script" path="res://scripts/CPUOpponentRule.gd" id="1_48oj1"]
-[ext_resource type="Script" path="res://scripts/CPUOpponentRuleset.gd" id="1_ojrog"]
-[ext_resource type="Script" path="res://scripts/CPUOpponentMove.gd" id="2_8ju61"]
-[ext_resource type="Script" path="res://scripts/CPUOpponentCombo.gd" id="2_syi1e"]
+[ext_resource type="Script" uid="uid://ddtwfdakcha4x" path="res://scripts/CPUOpponentRule.gd" id="1_48oj1"]
+[ext_resource type="Script" uid="uid://cyonjhkq6moac" path="res://scripts/CPUOpponentRuleset.gd" id="1_ojrog"]
+[ext_resource type="Script" uid="uid://c21k8tpk5cvf7" path="res://scripts/CPUOpponentMove.gd" id="2_8ju61"]
+[ext_resource type="Script" uid="uid://fvsm8y2l3ex3" path="res://scripts/CPUOpponentCombo.gd" id="2_syi1e"]
 
 [sub_resource type="Resource" id="Resource_15tvo"]
 script = ExtResource("1_48oj1")

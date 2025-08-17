@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://c5k34hfd8kc10"]
 
-[ext_resource type="Script" path="res://scripts/collBox.gd" id="1_i0x1u"]
+[ext_resource type="Script" uid="uid://cs7225eniidvk" path="res://scripts/collBox.gd" id="1_i0x1u"]
 [ext_resource type="Texture2D" uid="uid://htqeaqrxwl7u" path="res://media/logic/pushboxTex.png" id="2_vmkwp"]
 
 [node name="PushBox" type="Node2D"]

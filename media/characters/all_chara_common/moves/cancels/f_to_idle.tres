@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="MoveCancelRoute" load_steps=2 format=3 uid="uid://bbu004wfrvxr8"]
 
-[ext_resource type="Script" path="res://scripts/cancelRoute.gd" id="1_wkyrg"]
+[ext_resource type="Script" uid="uid://ovm4oyhf0bxh" path="res://scripts/cancelRoute.gd" id="1_wkyrg"]
 
 [resource]
 script = ExtResource("1_wkyrg")
@@ -12,3 +12,5 @@ onBlock = true
 onWhiff = true
 automaticCancelOnLanding = false
 activeIfNothingPressed = false
+autoCancelWhenValid = false
+autoPerformAtMoveEnd = false

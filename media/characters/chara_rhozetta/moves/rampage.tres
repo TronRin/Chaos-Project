@@ -1,7 +1,9 @@
-[gd_resource type="Resource" script_class="CharacterMove" load_steps=3 format=3 uid="uid://cppl6r71admm0"]
+[gd_resource type="Resource" script_class="CharacterMove" load_steps=5 format=3 uid="uid://cppl6r71admm0"]
 
+[ext_resource type="Script" uid="uid://ovm4oyhf0bxh" path="res://scripts/cancelRoute.gd" id="1_arjsh"]
 [ext_resource type="Resource" uid="uid://dwu61c2qyqr2i" path="res://media/characters/chara_rhozetta/moves/cancels/to_rampage_auto_first.tres" id="1_k04tt"]
-[ext_resource type="Script" path="res://scripts/move.gd" id="6_fwvrt"]
+[ext_resource type="Script" uid="uid://dl0og6tw8xw8o" path="res://scripts/soundAtFrame.gd" id="4_myky7"]
+[ext_resource type="Script" uid="uid://bx724cid86ygg" path="res://scripts/move.gd" id="6_fwvrt"]
 
 [resource]
 script = ExtResource("6_fwvrt")
@@ -35,7 +37,7 @@ input = Array[int]([8, 4, 16])
 inputVariant1 = Array[int]([8, 4, 16384])
 inputVariant2 = Array[int]([])
 inputVariant3 = Array[int]([])
-cancelRoutes = Array[Resource("res://scripts/cancelRoute.gd")]([ExtResource("1_k04tt")])
+cancelRoutes = Array[ExtResource("1_arjsh")]([ExtResource("1_k04tt")])
 guardFrames = Vector2i(-1, -1)
-soundsAtFrame = Array[Resource("res://scripts/soundAtFrame.gd")]([])
+soundsAtFrame = Array[ExtResource("4_myky7")]([])
 timestopFrames = 0

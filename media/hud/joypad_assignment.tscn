@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://bnvhvrlrbjles"]
 
 [ext_resource type="Texture2D" uid="uid://cmgpjjhaegknl" path="res://media/hud/controllerSelect.png" id="1_kbh3g"]
-[ext_resource type="Script" path="res://scripts/joypadAssignment.gd" id="1_yujl2"]
+[ext_resource type="Script" uid="uid://beyoitwsh5r7n" path="res://scripts/joypadAssignment.gd" id="1_yujl2"]
 [ext_resource type="Texture2D" uid="uid://crpau7fso5ht0" path="res://media/hud/joy.png" id="2_hhuom"]
 [ext_resource type="Texture2D" uid="uid://bxqilhbqug2gd" path="res://media/hud/joyP1.png" id="3_7errx"]
 [ext_resource type="Texture2D" uid="uid://dq4sp3j4pt7mc" path="res://media/hud/joyP2.png" id="4_pe80u"]

@@ -1,15 +1,16 @@
-[gd_resource type="Resource" script_class="CharacterMove" load_steps=13 format=3 uid="uid://brw3twcsivh43"]
+[gd_resource type="Resource" script_class="CharacterMove" load_steps=14 format=3 uid="uid://brw3twcsivh43"]
 
+[ext_resource type="Script" uid="uid://ovm4oyhf0bxh" path="res://scripts/cancelRoute.gd" id="1_oxy2f"]
 [ext_resource type="Resource" uid="uid://b3dvs8txb8pji" path="res://media/characters/all_chara_common/moves/cancels/zero_install_hit.tres" id="1_yahna"]
 [ext_resource type="Resource" uid="uid://k85f7ldgjhu7" path="res://media/characters/all_chara_common/moves/cancels/infinity_install_hit.tres" id="2_0q462"]
 [ext_resource type="Resource" uid="uid://bky4t7uyp20tb" path="res://media/characters/chara_gridd/moves/cancels/to_airdash_install_on_hit.tres" id="3_myhvc"]
 [ext_resource type="Resource" uid="uid://dodwisyy5me8d" path="res://media/characters/chara_gridd/moves/cancels/to_drills_fwp_hit.tres" id="4_cp5g1"]
-[ext_resource type="Script" path="res://scripts/move.gd" id="5_cf1qh"]
+[ext_resource type="Script" uid="uid://bx724cid86ygg" path="res://scripts/move.gd" id="5_cf1qh"]
 [ext_resource type="Resource" uid="uid://d2quvuuy1qvv0" path="res://media/characters/all_chara_common/moves/cancels/jc_b_on_hit.tres" id="5_m8a8s"]
 [ext_resource type="Resource" uid="uid://csyfkukhxifa0" path="res://media/characters/all_chara_common/moves/cancels/jc_on_hit.tres" id="6_qvvpi"]
 [ext_resource type="Resource" uid="uid://cbsm5q8tjpvy6" path="res://media/characters/chara_gridd/moves/cancels/kara_drills.tres" id="7_0cwkl"]
 [ext_resource type="Resource" uid="uid://d2nccsnvqunof" path="res://media/characters/all_chara_common/moves/cancels/jc_n_on_hit.tres" id="7_2oebo"]
-[ext_resource type="Script" path="res://scripts/soundAtFrame.gd" id="10_80j84"]
+[ext_resource type="Script" uid="uid://dl0og6tw8xw8o" path="res://scripts/soundAtFrame.gd" id="10_80j84"]
 [ext_resource type="AudioStream" uid="uid://c8uhtnvacs5kw" path="res://media/sounds/swing2.wav" id="11_6ucx0"]
 
 [sub_resource type="Resource" id="Resource_5o63r"]
@@ -51,7 +52,7 @@ input = Array[int]([1, 16])
 inputVariant1 = Array[int]([])
 inputVariant2 = Array[int]([])
 inputVariant3 = Array[int]([])
-cancelRoutes = Array[Resource("res://scripts/cancelRoute.gd")]([ExtResource("6_qvvpi"), ExtResource("5_m8a8s"), ExtResource("7_2oebo"), ExtResource("1_yahna"), ExtResource("2_0q462"), ExtResource("3_myhvc"), ExtResource("7_0cwkl"), ExtResource("4_cp5g1")])
+cancelRoutes = Array[ExtResource("1_oxy2f")]([ExtResource("6_qvvpi"), ExtResource("5_m8a8s"), ExtResource("7_2oebo"), ExtResource("1_yahna"), ExtResource("2_0q462"), ExtResource("3_myhvc"), ExtResource("7_0cwkl"), ExtResource("4_cp5g1")])
 guardFrames = Vector2i(-1, -1)
 soundsAtFrame = Array[ExtResource("10_80j84")]([SubResource("Resource_5o63r")])
 timestopFrames = 0

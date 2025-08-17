@@ -1,9 +1,9 @@
 [gd_scene load_steps=16 format=3 uid="uid://dp367r3taipby"]
 
 [ext_resource type="Texture2D" uid="uid://22d6uosuodhe" path="res://media/stages/stage_grid/backgroundFull.jpg" id="1_wfwob"]
-[ext_resource type="Script" path="res://scripts/scene_mode_selection.gd" id="1_y3ctb"]
+[ext_resource type="Script" uid="uid://cbsym3rlgmp3b" path="res://scripts/scene_mode_selection.gd" id="1_y3ctb"]
 [ext_resource type="Texture2D" uid="uid://dpbb30jc0c643" path="res://media/hud/systemMessages/VS.png" id="2_3rork"]
-[ext_resource type="Script" path="res://scripts/generic_menu.gd" id="2_gwhym"]
+[ext_resource type="Script" uid="uid://bdkb1tm0t8d7x" path="res://scripts/generic_menu.gd" id="2_gwhym"]
 [ext_resource type="AudioStream" uid="uid://bmxn7ajrnpcr5" path="res://media/sounds/confirm.wav" id="4_n1mfe"]
 [ext_resource type="AudioStream" uid="uid://bhi3kjdd6mscw" path="res://media/sounds/dash2.wav" id="5_snb4h"]
 [ext_resource type="Texture2D" uid="uid://dk3eqei0kdrkh" path="res://media/hud/systemMessages/training.png" id="5_wu30r"]

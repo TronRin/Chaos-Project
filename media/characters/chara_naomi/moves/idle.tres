@@ -1,10 +1,11 @@
-[gd_resource type="Resource" script_class="CharacterMove" load_steps=13 format=3 uid="uid://p47xfht07jma"]
+[gd_resource type="Resource" script_class="CharacterMove" load_steps=15 format=3 uid="uid://p47xfht07jma"]
 
 [ext_resource type="Resource" uid="uid://cibai2e77n3kx" path="res://media/characters/chara_naomi/moves/cancels/to_stratokick.tres" id="1_27f2i"]
 [ext_resource type="Resource" uid="uid://bnj601as867sa" path="res://media/characters/all_chara_common/moves/cancels/to_backwards.tres" id="1_77tmy"]
 [ext_resource type="Resource" uid="uid://c7dcgp4adrr11" path="res://media/characters/chara_naomi/moves/cancels/to_adv_kick_prep.tres" id="1_dk0bu"]
 [ext_resource type="Resource" uid="uid://bc7ehx5j2d1b5" path="res://media/characters/chara_naomi/moves/cancels/to_slash.tres" id="1_hm8hx"]
-[ext_resource type="Script" path="res://scripts/move.gd" id="1_tm0cq"]
+[ext_resource type="Script" uid="uid://ovm4oyhf0bxh" path="res://scripts/cancelRoute.gd" id="1_pae3g"]
+[ext_resource type="Script" uid="uid://bx724cid86ygg" path="res://scripts/move.gd" id="1_tm0cq"]
 [ext_resource type="Resource" uid="uid://d4k2fmlsmtu5t" path="res://media/characters/all_chara_common/moves/cancels/to_forward.tres" id="2_8vjxr"]
 [ext_resource type="Resource" uid="uid://6g40lpvle3au" path="res://media/characters/chara_naomi/moves/cancels/to_jknee.tres" id="2_glske"]
 [ext_resource type="Resource" uid="uid://xuie720qplxx" path="res://media/characters/all_chara_common/moves/cancels/to_forward_jump.tres" id="3_7l5l0"]
@@ -12,6 +13,7 @@
 [ext_resource type="Resource" uid="uid://c160x7jyc01hb" path="res://media/characters/all_chara_common/moves/cancels/to_neutral_jump.tres" id="5_8yo54"]
 [ext_resource type="Resource" uid="uid://c6bibtakoncnd" path="res://media/characters/all_chara_common/moves/cancels/zero_install_all.tres" id="5_556k5"]
 [ext_resource type="Resource" uid="uid://bcmdanssjtek8" path="res://media/characters/all_chara_common/moves/cancels/infinity_install_all.tres" id="5_vjc6w"]
+[ext_resource type="Script" uid="uid://dl0og6tw8xw8o" path="res://scripts/soundAtFrame.gd" id="14_x4t40"]
 
 [resource]
 script = ExtResource("1_tm0cq")
@@ -45,7 +47,7 @@ input = Array[int]([])
 inputVariant1 = Array[int]([])
 inputVariant2 = Array[int]([])
 inputVariant3 = Array[int]([])
-cancelRoutes = Array[Resource("res://scripts/cancelRoute.gd")]([ExtResource("1_dk0bu"), ExtResource("2_glske"), ExtResource("1_27f2i"), ExtResource("1_hm8hx"), ExtResource("5_556k5"), ExtResource("5_vjc6w"), ExtResource("4_b6sxd"), ExtResource("3_7l5l0"), ExtResource("5_8yo54"), ExtResource("1_77tmy"), ExtResource("2_8vjxr")])
+cancelRoutes = Array[ExtResource("1_pae3g")]([ExtResource("1_dk0bu"), ExtResource("2_glske"), ExtResource("1_27f2i"), ExtResource("1_hm8hx"), ExtResource("5_556k5"), ExtResource("5_vjc6w"), ExtResource("4_b6sxd"), ExtResource("3_7l5l0"), ExtResource("5_8yo54"), ExtResource("1_77tmy"), ExtResource("2_8vjxr")])
 guardFrames = Vector2i(-1, -1)
-soundsAtFrame = Array[Resource("res://scripts/soundAtFrame.gd")]([])
+soundsAtFrame = Array[ExtResource("14_x4t40")]([])
 timestopFrames = 0
